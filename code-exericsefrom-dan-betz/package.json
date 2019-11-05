@@ -1,0 +1,14 @@
+{
+  "name": "code-exericsefrom-dan-betz",
+  "version": "1.0.0",
+  "description": "_A Pen created at CodePen.io. Original URL: [https://codepen.io/dbpiper/pen/RwwMZzz](https://codepen.io/dbpiper/pen/RwwMZzz).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.2.0"
+  }
+}

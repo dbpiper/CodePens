@@ -1,11 +1,68 @@
-<script src="//use.typekit.net/rzv2mwh.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+<!DOCTYPE html>
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<div class="container">
-  <h1>Recreate this using HTML &amp; CSS</h1>
-  <img src="https://s3.amazonaws.com/f.cl.ly/items/2z3C3Z0L2Q0R282p1V0z/Image%202014-12-19%20at%2010.07.09%20AM.png" width="303" />
-  
-  <!--Your HTML goes here-->
-  
-</div>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <script src="js/scripts.js"></script>
+
+    <script src="//use.typekit.net/rzv2mwh.js"></script>
+    <script>
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+
+    <div class="container">
+      <div class="amount-left-container">
+        <div class="amount-left">
+          <h2>
+            <span class="dollar-amount">$167</span>
+            <span class="amount-text">
+              still needed for this project
+            </span>
+          </h2>
+        </div>
+        <div class="triangle"></div>
+      </div>
+
+      <div class="main-content">
+        <div class="progress-bar">
+          <div class="track">
+            <div class="filled"></div>
+          </div>
+        </div>
+        <div class="content-container">
+          <p class="body-copy">
+            <span class="days-left">Only 3 days left</span>
+            to fund this project.
+          </p>
+          <p class="body-copy">
+            Join the
+            <span class="other-donors">42</span>
+            other donors who have already supported this project. Every dollar
+            helps.
+          </p>
+
+          <form id="give-form">
+            <label id="amount-to-give-label" for="amount-to-give">
+              $
+            </label>
+            <input id="amount-to-give" type="text" placeholder="50" />
+            <input id="give-now-button" type="submit" value="Give Now" />
+          </form>
+
+          <a href="#" class="why-give-link">Why give $50?</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,12 +1,8 @@
 /* Global resets */
-* {box-sizing: border-box; margin: 0; padding: 0;}
-body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
-
-/* Fonts */
-h1 {
-  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
-  font-size: 2.5em;
-  font-weight: bold;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -15,7 +11,7 @@ h1 {
   text-align: center;
 }
 
-/* COLORS: 
+/* COLORS:
   blue: #20A1D4;
   green: #1CBC2C;
   orange: #EF5F3C;
@@ -24,4 +20,127 @@ h1 {
   light grey: #eaeaea;
 */
 
-/* Your CSS goes here */
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+.amount-left {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  background-color: #424242;
+  width: 600px;
+  height: 100px;
+  display: grid;
+  place-content: center;
+  border-radius: 10px;
+}
+
+.amount-text {
+  font-weight: 400;
+}
+
+.dollar-amount {
+  font-weight: 700;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 15px solid #424242;
+  margin-left: 520px;
+}
+
+.main-content {
+  margin-top: 10px;
+}
+
+.progress-bar {
+  width: 600px;
+  height: 22px;
+  border: 1px solid #dcdcdc;
+}
+
+.filled {
+  width: 450px;
+  background-color: #ef5f3c;
+  height: 20px;
+}
+
+.content-container {
+  width: 600px;
+  height: 450px;
+  border: 1px solid #dcdcdc;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #828282;
+}
+
+.body-copy {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.days-left {
+  color: #ef5f3c;
+  font-weight: 700;
+}
+
+.other-donors {
+  font-weight: 700;
+}
+
+#amount-to-give {
+  width: 200px;
+  height: 100px;
+  font-size: 40px;
+  padding-left: 50px;
+  background-color: transparent;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#amount-to-give-label {
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 25%;
+  left: 15px;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+}
+
+#give-form {
+  margin-top: 30px;
+  position: relative;
+}
+
+#give-now-button {
+  background-color: #1cbc2c;
+  color: #ffffff;
+  width: 240px;
+  height: 100px;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+.why-give-link {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #20a1d4;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 10px;
+  display: block;
+  font-weight: 600;
+}
