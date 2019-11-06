@@ -144,3 +144,23 @@ p {
   display: block;
   font-weight: 600;
 }
+
+.extra-buttons {
+  margin-top: 20px;
+}
+
+.extra-button {
+  background-color: #fafafa;
+  color: #777777;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+
+  width: 280px;
+  height: 75px;
+  cursor: pointer;
+}
+
+.extra-button:nth-child(1) {
+  margin-right: 20px;
+  float: left;
+}
